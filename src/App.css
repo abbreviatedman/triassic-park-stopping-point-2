@@ -1,0 +1,22 @@
+.app {
+  text-align: center;
+}
+
+#dinosaur-list-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background-color: cornflowerblue;
+}
+
+.dinosaur-item-container {
+  padding: 10px;
+  margin: 25px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 3px 3px 15px -5px;
+  text-align: center;
+}
+
+.dino-image {
+  height: 100px;
+}
